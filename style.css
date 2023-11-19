@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+body .container {
+  width: 500px;
+  background-color: white;
+  min-height: 250px;
+  padding: 20px 30px;
+  text-align: center;
+  box-shadow: 0 0 20px black;
+  border-radius: 3px;
+}
+body .container h2 {
+  margin: 20px 0 30px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid rgb(23, 124, 229);
+}
+body .container blockquote {
+  font-size: 30px;
+  font-weight: bold;
+}
+body .container span {
+  display: block;
+  margin-top: 10px;
+  float: right;
+}
+.container div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container div button {
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(23, 124, 229);
+  cursor: pointer;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.container div button img {
+  width: 20px;
+  margin-right: 10px;
+}
+.container div button:nth-child(2) {
+  background-color: transparent;
+}
